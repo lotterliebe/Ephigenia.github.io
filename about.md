@@ -1,0 +1,16 @@
+---
+layout: page
+title: About Marcel Eichner
+permalink: /about/
+nav: true
+---
+
+A born and bred Berliner, I started working as a freelance web developer at the age of 18, in 2001. After dabbling in media art and communication design, I discovered my real passion lay in the front- and back-end development of online travel communities, social networks and science projects.
+
+Between 2009 and 2011, I ran Germany’s biggest horror movie blog – based on my own CMS. Concurrently, I created the concept, design and programming of the re-launched [Berliner Gazette](http://www.berlinergazette.de) magazine.
+
+Following this, I co-founded [(foo)bugs](http://www.foobugs.com). We provided PHP, node.js and front-end support, in addition to IT consulting and quality assurance, for both start-ups and established companies. Since 2014, I’ve been a partner of media monitoring company, [Toocan](http://www.toocan.biz).
+
+Recently, I’ve focused on supporting project teams, based on the experience gleaned from 15 year’s of successful – and failed – web projects. I understand the importance of creating clean, fast performing code, as well as defining a clearly structured product. I also acknowledge maintaining a certain quality and well mapped-out processes.
+
+Whether you’re a local start-up or global organization, I can give life to your ideas and support your online needs. [Contact ME](mailto:marcel.eichner@ephigenia.de) to discuss your needs!
