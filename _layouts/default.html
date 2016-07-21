@@ -13,4 +13,76 @@
   {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
+  <script type="text/javascript" src="bower_components/voronoi.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+      var options = {
+        width: window.innerWidth,
+        height: window.innerHeight,
+        precision: 16,
+        markers: false
+      };
+      var voronoi = new Voronoi.Diagram(options);
+
+      function bound01(n, max) {
+        if ((Math.abs(n - max) < 0.000001)) {
+            return 1;
+        }
+        return (n % max) / parseFloat(max);
+      }
+
+      function hslToRgb(h, s, l) {
+        var r, g, b;
+
+        h = bound01(h, 360);
+        s = bound01(s, 100);
+        l = bound01(l, 100);
+
+        function hue2rgb(p, q, t) {
+          if(t < 0) t += 1;
+          if(t > 1) t -= 1;
+          if(t < 1/6) return p + (q - p) * 6 * t;
+          if(t < 1/2) return q;
+          if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+          return p;
+        }
+
+        if(s === 0) {
+          r = g = b = l; // achromatic
+        }
+        else {
+          var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+          var p = 2 * l - q;
+          r = hue2rgb(p, q, h + 1/3);
+          g = hue2rgb(p, q, h);
+          b = hue2rgb(p, q, h - 1/3);
+        }
+
+        return { r: r, g: g, b: b};
+      }
+      function randomColor() {
+        var min = 75;
+        var max = 100;
+        return hslToRgb(54 + Math.random() * 5, 90 + Math.random() * 10, min + (Math.random() * (max - min)));
+      }
+
+      document.addEventListener('click', function(event) {
+        voronoi.point(event.clientX, window.innerHeight - event.clientY, randomColor());
+        voronoi.render();
+      });
+
+      for(var i = 0; i < 32; i++) {
+        var color = randomColor();
+        var x = Math.random() * window.innerWidth;
+        var y = Math.random() * window.innerHeight;
+        voronoi.point(x, y, color);
+      }
+
+      var elm = document.body.appendChild(voronoi.canvas);
+      elm.setAttribute('style', 'position: fixed; top: 0px; left: 0px; z-index: -99999999');
+      voronoi.render();
+    })();
+
+  </script>
 </html>
