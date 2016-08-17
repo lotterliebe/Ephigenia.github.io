@@ -13,18 +13,10 @@
   {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
+  <script type="text/javascript" src="bower_components/three.min.js"></script>
   <script type="text/javascript" src="bower_components/voronoi.min.js"></script>
   <script type="text/javascript">
     (function() {
-      var options = {
-        width: window.innerWidth,
-        height: window.innerHeight,
-        precision: 16,
-        markers: false
-      };
-      var voronoi = new Voronoi.Diagram(options);
-
       function bound01(n, max) {
         if ((Math.abs(n - max) < 0.000001)) {
             return 1;
@@ -61,6 +53,7 @@
 
         return { r: r, g: g, b: b};
       }
+
       function randomColor() {
         var min = 75;
         var max = 100;
@@ -69,10 +62,20 @@
 
       document.addEventListener('click', function(event) {
         voronoi.point(event.clientX, window.innerHeight - event.clientY, randomColor());
-        voronoi.render();
+        tick();
       });
 
-      for(var i = 0; i < 32; i++) {
+      var options = {
+        width: window.innerWidth,
+        height: window.innerHeight,
+        precision: 16,
+        markers: false
+      };
+      var voronoi = new Voronoi.Diagram(options);
+
+      // add random points
+      var numberOfPoints = Math.round(Math.random() * 45);
+      for(var i = 0; i < numberOfPoints; i++) {
         var color = randomColor();
         var x = Math.random() * window.innerWidth;
         var y = Math.random() * window.innerHeight;
@@ -81,8 +84,16 @@
 
       var elm = document.body.appendChild(voronoi.canvas);
       elm.setAttribute('style', 'position: fixed; top: 0px; left: 0px; z-index: -99999999');
-      voronoi.render();
-    })();
 
+      function tick() {
+        voronoi.render();
+      }
+
+
+      window.addEventListener('resize', function() {
+        voronoi.render();
+      });
+
+    })();
   </script>
 </html>
