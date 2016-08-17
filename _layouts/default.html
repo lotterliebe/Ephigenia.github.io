@@ -13,6 +13,7 @@
   {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
+
   <script type="text/javascript" src="bower_components/three.min.js"></script>
   <script type="text/javascript" src="bower_components/voronoi.min.js"></script>
   <script type="text/javascript">
@@ -89,10 +90,11 @@
         voronoi.render();
       }
 
-
       window.addEventListener('resize', function() {
+        console.log('resize');
         voronoi.render();
       });
+      window.dispatchEvent(new Event('resize'));
 
     })();
   </script>
