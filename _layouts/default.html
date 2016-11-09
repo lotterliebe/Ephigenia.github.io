@@ -14,8 +14,8 @@
     {% include analytics.html %}
   {% endif %}
 
-  <script type="text/javascript" src="bower_components/three.min.js"></script>
-  <script type="text/javascript" src="bower_components/voronoi.min.js"></script>
+  <script type="text/javascript" src="/bower_components/three.min.js"></script>
+  <script type="text/javascript" src="/bower_components/voronoi.min.js"></script>
   <script type="text/javascript">
     (function() {
       function bound01(n, max) {
@@ -91,7 +91,6 @@
       }
 
       window.addEventListener('resize', function() {
-        console.log('resize');
         voronoi.render();
       });
       window.dispatchEvent(new Event('resize'));
