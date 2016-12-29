@@ -23,4 +23,10 @@ analytics:
 # Build settings
 markdown: kramdown
 
+authors:
+  ephigenia:
+    name: Marcel Eichner
+    email: love@ephigenia.de
+    web: http://www.marceleichner.de
+
 timezone: Europe/Berlin
