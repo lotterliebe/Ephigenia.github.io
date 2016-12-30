@@ -13,6 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.marceleichner.de" # the base hostname & protocol for your site
 twitter_username: ephigenia
 github_username:  Ephigenia
+gitlab_username: ephigenia
 xing_username: Marcel_Eichner
 linkedin_username: ephigenia
 
