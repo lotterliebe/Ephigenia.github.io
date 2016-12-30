@@ -1,0 +1,174 @@
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+}
+
+figcaption {
+  font-size: 0.75em;
+}
+
+
+// Set `margin-bottom` to maintain vertical rhythm
+blockquote,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+ul {
+  margin-bottom: 1rem;
+}
+
+// headlines
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+h6 {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-weight: 300;
+  font-style: italic;
+}
+
+// links
+a {
+  font-weight: 400;
+  color: $text-color;
+  transition: all 0.25s ease-in;
+  outline: 2px solid transparent;
+}
+
+a:visited {
+  color: $text-color;
+}
+
+a:active,
+a:hover {
+  outline: 2px solid $brand-color;
+  background: $brand-color;
+}
+
+.muted {
+  color: $text-muted;
+}
+
+// big quotes
+blockquote {
+  color: $text-muted;
+  border-left: 10px solid mix($text-color, $background-color, 10%);
+  padding-left: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-style: italic;
+  font-weight: 300;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+// inline code
+code,
+pre {
+  color: $code-text-color;
+  font-family: $code-font-family;
+  font-weight: $code-font-weight;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+  background-color: $code-background-color;
+}
+
+code {
+  padding: 0.125rem;
+}
+// code snippets
+pre {
+  padding: 0.21rem 0.5rem;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+// lists
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol,
+ul {
+  margin-bottom: 1rem;
+
+  li {
+    margin-left: 1.125rem;
+    // nested lists should not have margin bottom
+    ol,
+    ul {
+      margin-bottom: 0;
+    }
+  }
+}
+
+ol,
+ul {
+  &.list-unstyled {
+    list-style-type: none;
+
+    &,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  &.list-inline {
+    li {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}

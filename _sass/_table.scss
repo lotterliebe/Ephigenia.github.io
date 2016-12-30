@@ -1,0 +1,21 @@
+table {
+  border: collapse;
+  border-spacing: 0;
+  thead {
+    th {
+      @extend strong;
+      border-bottom: 2px solid $grey-color;
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        border-top: 1px solid $grey-color;
+      }
+    }
+    tr:nth-child(2n) > td {
+      background: mix($background-color, $grey-color, 85%);
+    }
+  }
+}
