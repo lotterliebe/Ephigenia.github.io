@@ -9,9 +9,11 @@ nav: true
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y %H:%m" }}</time><br />
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <blockquote>
-        {{ post.excerpt }}
-      </blockquote>
   </li>
   {% endfor %}
 </ul>
+
+<p class="muted text-centered" style="margin-top: 10rem;"><small>
+  Please note that all the old posts between 2009 and 2015 are available in
+  <a href="http://blog.marceleichner.de/">my archived tumblr blog</a>.</small>
+</p>
