@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+  </header>
+  <div class="row">
+    <div class="col-sm-9" class="post-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+    <div class="col-sm-3">
+      <dl>
+        {% if page.period %}
+        <dt>
+          Period
+        </dt>
+        <dd>
+          {{page.period}}
+        </dd>
+        {% endif %}
+
+        {% if page.clients %}
+        <dt>
+          Client
+        </dt>
+        <dd>
+          <ul class="list-inline">
+          {% for clientAlias in page.clients %}
+            <li>
+            {% assign client = site.data.clients[clientAlias] %}
+            {% if client %}
+              <a href="{{client.url}}">{{client.name}}</a>
+            {% else %}
+              {{clientAlias}}
+            {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </dd>
+        {% endif %}
+
+        {% if page.agencies %}
+        <dt>
+          Agency
+        </dt>
+        <dd>
+          <ul class="list-inline">
+          {% for agencyAlias in page.agencies %}
+            <li>
+            {% assign agency = site.data.agencies[agencyAlias] %}
+            {% if agency %}
+              <a href="{{agency.url}}">{{agency.name}}</a>
+            {% else %}
+              {{agencyAlias}}
+            {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </dd>
+        {% endif %}
+        <dt>
+          Tags
+        </dt>
+        <dd>
+          {% include taglist.html tags=page.tags %}
+        </dd>
+      </dl>
+    </div>
+  </div>
+</article>

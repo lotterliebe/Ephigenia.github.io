@@ -27,7 +27,7 @@ ul {
 
 // headlines
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -61,7 +61,7 @@ h6 {
 }
 
 small {
-  font-size: 0.7rem;
+  font-size: $small-font-size;
 }
 strong {
   font-weight: 700;

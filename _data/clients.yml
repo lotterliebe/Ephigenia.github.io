@@ -1,0 +1,15 @@
+dbbahnpark:
+  name: DB BahnPark
+  url: http://www.dbbahnpark.de/
+rbb:
+  name: RBB
+  url: http://www.rbb-online.de/
+toocan:
+  name: Toocan
+  url: http://www.toocan.biz/
+visono:
+  name: Visono
+  url: https://visono.biz/
+zalando:
+  name: Zalando
+  url: https://tech.zalando.com/

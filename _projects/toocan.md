@@ -1,0 +1,26 @@
+---
+layout: "project"
+title: "Toocan"
+date: "2016-12-31 12:14"
+period: 2014-10 – 2016-06
+clients:
+    - toocan
+tags:
+    - php
+    - nodejs
+    - crawler
+    - project-management
+    - mongodb
+    - rabbitmq
+    - symfony
+    - html
+    - css
+    - bootstrap
+---
+
+crawler
+rabbitmq
+distributedproject management
+
+symfony
+concept

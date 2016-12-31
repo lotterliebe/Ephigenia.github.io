@@ -22,7 +22,6 @@ body > header {
   @media screen and (max-width: $on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $text-color;
     border-radius: 5px;
@@ -72,13 +71,7 @@ body > header {
  * Site footer
  */
 body > footer {
-  margin-top: 8em;
+  margin-top: 2rem;
+  padding: 1rem;
   border-top: 1px solid $grey-color;
-  padding: $spacing-unit 0;
-}
-/**
- * Page content
- */
-.page-content {
-  padding: $spacing-unit 0;
 }

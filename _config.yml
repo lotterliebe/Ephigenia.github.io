@@ -21,6 +21,11 @@ analytics:
   google:
     tracking_id: 'UA-80368234-1'
 
+collections:
+  projects:
+    output: true
+    permalink: /project/:path/
+
 # Build settings
 markdown: kramdown
 
