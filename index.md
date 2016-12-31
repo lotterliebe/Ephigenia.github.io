@@ -9,5 +9,5 @@ Say hello to [ME](mailto:marcel.eichner@ephigenia.de)
 
 ### Projects
 
-{% for project in site.projects %}
+{% for project in site.projects reversed %}
 * [{{project.title}}]({{site.baseurl}}{{project.url}}){% endfor %}
