@@ -1,5 +1,5 @@
 ---
-title: Hallo!
+title: Hello!
 layout: page
 nav: true
 ---

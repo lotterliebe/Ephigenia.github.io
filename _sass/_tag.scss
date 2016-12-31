@@ -1,0 +1,9 @@
+.tag {
+  padding: 0.125rem 0.25rem;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+.tag-default {
+  background-color: mix($background-color, $text-color, 90%);
+}

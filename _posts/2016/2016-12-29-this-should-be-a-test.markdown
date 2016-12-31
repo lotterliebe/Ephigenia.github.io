@@ -3,8 +3,6 @@ layout: post
 title: This should be a test
 date: '2016-12-29 16:03'
 published: false
-categories:
-    - project
 tags:
     - php
     - javascript

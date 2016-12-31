@@ -5,3 +5,7 @@ Run local jekyll Server
 test production state:
 
     JEKYLL_ENV=production jekyll serve
+
+Enable unpublishd, draft and future posts:
+
+    bundle exec jekyll server --unpublished --drafts --future

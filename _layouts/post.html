@@ -10,15 +10,7 @@ layout: default
       {% if author %}
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{author.name}}</span></span>
       {% endif %}
-      {% if page.tags %}
-        <ul class="list-inline">
-          {% for tag in page.tags %}
-          <li>
-            {{ tag }}
-          </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      {% include taglist.html tags=page.tags %}
     </p>
   </header>
   <div class="post-content" itemprop="articleBody">
