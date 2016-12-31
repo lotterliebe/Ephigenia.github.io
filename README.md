@@ -1,11 +1,19 @@
-Run local jekyll Server
+These are the sources of my website. Based on the automatic site generator [jekyll](https://jekyllrb.com) it’s deployed to [github pages](https://pages.github.com/).
+
+## Requirements
+
+* [ruby](https://www.ruby-lang.org)
+
+## Local Development
+
+Run local jekyll server:
 
     JEKYLL_ENV=development bundle exec jekyll serve
 
-test production state:
+Run in production mode:
 
     JEKYLL_ENV=production jekyll serve
 
-Enable unpublishd, draft and future posts:
+Enable unpublishd, draft and future posts when generating:
 
     bundle exec jekyll server --unpublished --drafts --future
