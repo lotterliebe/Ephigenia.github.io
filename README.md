@@ -4,6 +4,10 @@ These are the sources of my website. Based on the automatic site generator [jeky
 
 * [ruby](https://www.ruby-lang.org)
 
+## Setup
+
+    bundle install
+
 ## Local Development
 
 Run local jekyll server:
