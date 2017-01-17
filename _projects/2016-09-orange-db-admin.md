@@ -10,9 +10,26 @@ agencies:
     - utecht
 tags:
     - angular
-    - javascript
-    - html
     - bootstrap
+    - continuous deployment
+    - continuous integration
+    - ESLint
+    - HTML
+    - javascript
+    - karma
     - mocha
+    - OAuth
+    - REST
+    - test driven development (TDD)
     - web-application
 ---
+In dieser für [{{site.data.agencies.utecht.name}}]({{site.data.agencies.utecht.url}}) und [{{site.data.agencies.workonweb.name}}]({{site.data.agencies.workonweb.url}}) entwickelten [Angular](https://angularjs.org/)-Anwendung können die Mitarbeiter der DB Bahnpark GmbH komplexe Daten der zahlreichen von ihnen verwalteten Parkräume in über 145 Städten verändern.
+
+Dabei wurde viel Wert auf eine einfache Bedienung, hohe Performance und Softwarequalität gelegt. Neben der testgetriebenen Entwicklung werden verschiedene Metriken zur Softwarequalität (Testabdeckung, ESLint Meldungen) erfasst und überwacht.
+
+<!-- add more text which describes features like:
+    - tables
+    - hidable columns
+    - complex forms
+    - responsiveness
+    -->
