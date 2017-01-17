@@ -1,3 +1,14 @@
+bz:
+  name: B.Z. Ullstein GmbH
+  url: http://www.bz-berlin.de
+bertelsmann:
+  name: bertelsmann
+  url: https://www.bertelsmann.de/#st-1
+berlinergazette:
+  name: Berliner Gazette e.V.
+  url: http://www.berlinergazette.de
+bevation:
+  name: BeVation
 dbbahnpark:
   name: DB BahnPark
   url: http://www.dbbahnpark.de/
