@@ -46,6 +46,7 @@ ul {
 
 // definition lists
 dl {
+  margin-bottom: 1rem;
   > dt {
     @extend strong;
   }

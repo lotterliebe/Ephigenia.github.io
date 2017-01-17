@@ -1,7 +1,7 @@
 ---
-layout: "project"
-title: "Orange DB Admin"
-date: "2016-12-31 12:14"
+layout: project
+title: Orange DB Admin
+date: 2016-12-31 12:14
 period: 2016-09 – 2017-01
 clients:
     - dbbahnpark
