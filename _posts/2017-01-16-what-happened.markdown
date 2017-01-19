@@ -2,9 +2,6 @@
 layout: "post"
 title: "Was ist 2016 passiert"
 date: "2017-01-16 10:00"
-tags:
-    - projects
-    - open-source
 ---
 *Nachdem ich eine ganze Weile nichts mehr gebloggt habe will ich in diesem kurz gefassten Beitrag einen kleinen Überblick geben was seit Ende 2015 bis heute so bei mir passiert ist.*
 
