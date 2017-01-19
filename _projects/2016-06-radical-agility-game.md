@@ -11,9 +11,14 @@ tags:
     - angular
     - javascript
     - html
+    - mocha
     - game
 ---
-
+<!-- marc storch & moresleep
+unterbau angularjs
+testgetrieben entwickelt
+job site verlinken wie im blogpost
+-->
 
 https://tech.zalando.com/radical-agility-superheroes/#/
 https://twitter.com/ebowman/status/785792855444946944
