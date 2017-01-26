@@ -10,3 +10,6 @@ utecht:
 workonweb:
   name: workonweb
   url: http://www.workonweb.de/
+foobugs:
+  name: foobugs
+  url: http://www.foobugs.com/
