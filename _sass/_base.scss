@@ -6,3 +6,10 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+
+article.post .post-meta {
+  @media (min-width: 48em) {
+    margin-left: -1rem;
+  }
+}
