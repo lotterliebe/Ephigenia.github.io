@@ -32,4 +32,4 @@ Da gibt es zum Beispiel den [LocationIQ Adapter für node-geocoder](https://gith
 
 ### Ausblick auf 2017
 
-Bei mir scheint [Angular](https://angular.io/) gerade angesagt zu sein – denn das ist ein sehr spannendes Feld. Durch den Release von Angular 2 und [ionic 2](http://ionic.io/2) wird 2017 sehr spannend werden. Dazu eröffnen [ReactiveX/rx](http://reactivex.io/) und [react](https://facebook.github.io/react/) weitere Möglichkeiten – ich bin gespannt!
+Bei mir scheint [Angular](https://angular.io/) gerade angesagt zu sein – denn das ist ein sehr spannendes Feld. Durch den Release von Angular 2 und [ionic 2](http://ionic.io/2) wird 2017 sehr spannend werden. Dazu eröffnen [ReactiveX/rx](http://reactivex.io/) und [react](https://facebook.github.io/react/) weitere Möglichkeiten – ich bin gespannt und bereit für neue Projekte in 2017!
