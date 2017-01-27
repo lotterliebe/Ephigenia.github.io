@@ -3,16 +3,10 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <ul class="list-unstyled">
-          {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a>
+             | <a href="https://gitlab.com/{{ site.github_username }}" rel="me">GitLab</a>
           </li>
-          {% endif %}
-          {% if site.gitlab_username %}
-          <li>
-            <a href="https://gitlab.com/{{ site.github_username }}" rel="me">GitLab</a>
-          </li>
-          {% endif %}
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}" rel="me">Twitter</a>
