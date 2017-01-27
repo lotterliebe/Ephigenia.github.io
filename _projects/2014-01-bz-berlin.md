@@ -3,6 +3,7 @@ layout: "project"
 title: "B.Z."
 date: "2014-01-17 12:14"
 period: 2014-01 – 2014-06
+published: false
 clients:
     - bz
 agencies:

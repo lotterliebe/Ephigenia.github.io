@@ -1,7 +1,8 @@
 ---
 layout: "post"
 title: "Was 2016 passiert ist"
-date: "2017-01-30 10:00"
+date: "2017-01-16 10:00"
+published: true
 ---
 *Nachdem ich eine ganze Weile nichts mehr gebloggt habe, will ich in diesem kurz gefassten Beitrag einen kleinen Überblick geben, was seit Ende 2015 bis heute so bei mir passiert ist.*
 
@@ -17,11 +18,11 @@ Da ich so aus allen Beteiligungen ausgeschieden bin, habe ich meine altes Einzel
 
 Anfang des Jahres ging es mit einem AngularJS-Projekt los. Dieses stellte sich als so komplex heraus, dass es gut 8 Monate dauerte bis eine erste Version veröffentlicht werdem konnte. Heute wird [m³ Asset Management]({{ site.baseurl }}/project/2015-08-m3) von einem großen Zeitungsverlag in Berlin verwendet und macht hoffentlich einen ganzen Haufen Redakteure glücklich.
 
-Weiter ging es mit einem Angular-Spiel [Radical Agility Superheroes]({{ site.baseurl }}/project/2016-06-radical-agility-game) für für [{{site.data.clients.zalando.name}}]({{site.data.clients.zalando.url}}) (im Auftrag von [{{site.data.agencies.moresleep.name}}](site.data.agencies.moresleep.url)), bei dem ich die generelle Spiel-Mechanik samt Unit-Tests und Daten, sowie die Integration in die statische generierte „Tech“-Seite. Es war super, wieder mit alten Bekannten ([Marc Storch](http://www.gopogo.de/)) zusammenzuarbeiten. [Zalando sucht übrigens weiterhin begabte Programmierer](https://tech.zalando.com/jobs/), die ihr internationales Team unterstützen.
+Weiter ging es mit einem Angular-Spiel [Radical Agility Superheroes]({{ site.baseurl }}/project/2016-06-radical-agility-game) für [{{site.data.clients.zalando.name}}]({{site.data.clients.zalando.url}}) (im Auftrag von [{{site.data.agencies.moresleep.name}}](site.data.agencies.moresleep.url)), bei dem ich die generelle Spiel-Mechanik samt Unit-Tests und Daten, sowie die Integration in die statisch generierte „Tech“-Seite umsetzte. Es war super, wieder mit alten Bekannten ([Marc Storch](http://www.gopogo.de/)) zusammenzuarbeiten. [Zalando sucht übrigens weiterhin begabte Programmierer](https://tech.zalando.com/jobs/), die ihr internationales Team unterstützen.
 
 Durch die aktive Arbeit im Javascript-Bereich lernte ich die noch junge Agentur [{{site.data.agencies.hybridheroes.name}}]({{site.data.agencies.hybridheroes.url}}) kennen, die ich bei verschiedenen [Ionic](http://ionicframework.com/) Anwendungen unterstützen konnte. Neben diversen neuen Features und Bug-Fixes für die [RBB 24 App]({{ site.baseurl }}/project/2016-04-rbb-24-app), habe ich Features für eine firmeninterne iOS App für SPAR Österreich realisiert, die jetzt von mehr als 200 Filialleitern in Österreich eingesetzt wird.
 
-Mein letztes Projekt in 2016 war wieder eine Web-Anwendung in Angular namens [Orange DB]({{ site.baseurl }}/project/2016-09-orange-db-admin). Diese nutzt DB Bahnpark, um ihre zahlreichen Parkhäuser und -plätze zu managen.
+Mein letztes Projekt in 2016 war wieder eine Web-Anwendung in Angular namens [Orange DB]({{ site.baseurl }}/project/2016-09-orange-db-admin). Diese nutzt [{{site.data.clients.dbbahnpark.name}}]({{site.data.clients.dbbahnpark.url}}) (ein Tochterunternehmen der Deutschen Bahn), um ihre zahlreichen Parkhäuser und -plätze zu managen.
 
 ### Open-Source
 

@@ -3,6 +3,7 @@ layout: "project"
 title: "Toocan"
 date: "2013-06-01 10:10"
 period: 2013-06 – 2014-02
+published: false
 clients:
     - bevation
     - bertelsmann

@@ -3,6 +3,7 @@ layout: "project"
 title: "Horrorblog"
 date: "2009-06-01 12:14"
 period: 2009-06 – 2011-11
+published: false
 tags:
     - PHP
     - CMS
