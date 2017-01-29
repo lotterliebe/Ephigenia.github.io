@@ -3,6 +3,7 @@ layout: "project"
 title: "Radical Agility Superheroes"
 date: "2016-12-31 12:14"
 period: 2016-06 – 2016-08
+published: false
 clients:
     - zalando
 agencies:
