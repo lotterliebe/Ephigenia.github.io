@@ -2,7 +2,9 @@
 layout: "post"
 title: "Was 2016 passiert ist"
 date: "2017-01-29 11:48"
+author: ephigenia
 published: true
+comments: true
 ---
 *Nachdem ich eine ganze Weile nichts mehr gebloggt habe, will ich in diesem kurz gefassten Beitrag einen kleinen Überblick geben, was seit Ende 2015 bis heute so bei mir passiert ist.*
 
