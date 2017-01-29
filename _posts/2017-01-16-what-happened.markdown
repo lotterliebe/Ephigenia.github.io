@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Was 2016 passiert ist"
-date: "2017-01-16 10:00"
+date: "2017-01-29 11:48"
 published: true
 ---
 *Nachdem ich eine ganze Weile nichts mehr gebloggt habe, will ich in diesem kurz gefassten Beitrag einen kleinen Überblick geben, was seit Ende 2015 bis heute so bei mir passiert ist.*
@@ -18,11 +18,11 @@ Da ich so aus allen Beteiligungen ausgeschieden bin, habe ich meine altes Einzel
 
 Schone Ende 2015 ging es im Auftrag von [{{site.data.clients.visono.name}}]({{site.data.clients.visono.url}}) mit einem ersten Angular-Projekt los. Dieses stellte sich im Agilen Prozess als recht komplex heraus, so dass es 8 Monate dauerte, bis eine erste Version veröffentlicht werden konnte. Heute wird [m³ Asset Management]({{ site.baseurl }}/project/2015-08-m3) von einem großen Zeitungsverlag in Berlin verwendet und macht hoffentlich einen ganzen Haufen Redakteure glücklich.
 
-Weiter ging es mit dem [Radical Agility Superheroes]({{ site.baseurl }}/project/2016-06-radical-agility-game) Spiel für [{{site.data.clients.zalando.name}}]({{site.data.clients.zalando.url}}) (im Auftrag von [{{site.data.agencies.moresleep.name}}](site.data.agencies.moresleep.url)), bei dem ich die generelle Spiel-Mechanik samt Unit-Tests und Daten, sowie die Integration in die statisch generierte „Tech“-Seite umsetzte. Es war super, wieder mit alten Bekannten ([Marc Storch](http://www.gopogo.de/)) zusammenzuarbeiten. [Zalando sucht übrigens weiterhin begabte Programmierer](https://tech.zalando.com/jobs/), die ihr internationales Team unterstützen.
+Weiter ging es mit dem [Radical Agility Superheroes](https://tech.zalando.com/radical-agility-superheroes/) Spiel für [{{site.data.clients.zalando.name}}]({{site.data.clients.zalando.url}}) (im Auftrag von [{{site.data.agencies.moresleep.name}}](site.data.agencies.moresleep.url)), bei dem ich die generelle Spiel-Mechanik samt Unit-Tests und Daten, sowie die Integration in die statisch generierte „Tech“-Seite umsetzte. Es war super, wieder mit alten Bekannten ([Marc Storch](http://www.gopogo.de/)) zusammenzuarbeiten. [Zalando sucht übrigens weiterhin begabte Programmierer](https://tech.zalando.com/jobs/), die ihr internationales Team unterstützen.
 
 Durch die aktive Arbeit im Javascript-Bereich lernte ich die noch junge Agentur [{{site.data.agencies.hybridheroes.name}}]({{site.data.agencies.hybridheroes.url}}) kennen, die ich bei verschiedenen [Ionic](http://ionicframework.com/) Anwendungen unterstützen konnte. Neben diversen neuen Features und Bug-Fixes für die [rbb&#124;24](http://hybridheroes.de/blog/2016-07-31-skeleton-screens/) iOS/Android App, habe ich Features für eine firmeninterne iOS App für eine große Supermarktkette realisiert, die jetzt von mehr als 200 Filialleitern in Österreich eingesetzt wird.
 
-Mein letztes Projekt in 2016 war wieder eine mit Angular realisierte Web-Anwendung namens Orange DB. Diese nutzt [{{site.data.clients.dbbahnpark.name}}]({{site.data.clients.dbbahnpark.url}}) (ein Tochterunternehmen der Deutschen Bahn), um ihre zahlreichen Parkhäuser und -plätze zu managen.
+<!--Mein letztes Projekt in 2016 war wieder eine mit Angular realisierte Web-Anwendung namens Orange DB. Diese nutzt [{{site.data.clients.dbbahnpark.name}}]({{site.data.clients.dbbahnpark.url}}) (ein Tochterunternehmen der Deutschen Bahn), um ihre zahlreichen Parkhäuser und -plätze zu managen.-->
 
 ### Open-Source
 
